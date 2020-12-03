@@ -1,55 +1,7 @@
-
-    <style>
-    body{
-        margin:0;
-        padding:0;
-    }
-        li {
-        list-style:none !important;
-        color:#FFF;
-        font-size:20px;
-        text-decoration:none;
-        width:100%;
-        }
-        
-        nav ul {
-        background-color:#64abfb;
-        margin:0;
-        padding:0;
-        display: flex;
-        }
-        
-        nav ul li {
-        list-style: none;
-        line-height:44px;
-        float:left;
-        background-color: black;
-        }
-        
-        nav ul li a {
-        color: white;
-        padding:10px;
-        font-size:20px;
-        text-decoration:none;
-        }
-        
-        li a:hover {
-        border-bottom:3px #FFF solid;
-        }
-        nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
-        
-        nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
-        z-index:99999;
-        display:list-item !important;
-        position:absolute;
-        margin-left:-10px;
-        }
-        
-        nav ul li:hover ul li {
-        float:none;
-        }
-    </style>
-    <nav>
+<head>
+    <link rel="stylesheet" href="Menu.css">
+</head>
+<nav>
     <ul>
         <li>Exercice HTML/CSS
             <ul>
